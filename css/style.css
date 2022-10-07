@@ -1,0 +1,208 @@
+/* base classes*/
+.d-inline-block {
+    display:inline-block;
+}
+/* end base classes */
+.index-nav {
+    text-align: right;
+    background-color:dimgray;
+}
+
+
+.index-nav li {
+    font-size: 30px;
+    margin-right:40px;
+    color:blanchedalmond;
+}
+.div-1 {
+    background-color: rgba(127, 151, 112, 0.659);
+    /* text-align: right; */
+    height:100px;
+}
+.h1 {
+    font-size:70px;
+    text-transform:uppercase;
+    padding-left: 30px;
+    vertical-align: bottom;
+
+}
+.h2-1 {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Peralta', cursive;
+    font-size:40px;
+    margin-left:20px;
+   
+}
+.div-1-p {
+    float:right;
+    border:2px solid dimgray;
+    font-size:25px;
+    width:280px;
+    margin-top: 37px;
+    margin-right: 60px;
+    text-align:left;
+    cursor:pointer;   
+    vertical-align: middle;
+    padding-left:20px;
+    font-weight:100;
+    font-style: italic;
+    text-transform:capitalize;
+}
+.div-1-p::after {
+    content:'\1F50D';
+    background-color: dimgray ;
+    width: 4px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:120px;
+}
+.section1 {
+    background-color: rgb(22, 175, 236);
+}
+.div-2 {
+    height:305px;
+    background-color:rgb(22, 175, 236);
+}
+.div-2 h2 {
+    font-size:40PX;
+    text-transform:capitalize;
+
+}
+.div-2-p {
+    font-family: 'Dancing Script';
+    width:909px;
+    font-size:20px;
+    padding-bottom:200px;
+    text-indent: 40px; 
+    margin-left: 30px;
+    height: 400px;
+    
+
+}
+.img1 {
+    /* vertical-align: middle; */
+    margin-bottom: 45px;
+    max-width: 25%;
+    margin-top: 20px; 
+    margin-left: 20px;
+    
+}
+/* start section 2 style */
+.section2 {
+    background-color:#088f62b3; ;
+}
+.div-22 {
+    height: 305px;
+}
+.section2-p {
+    font-family: 'MG Glaho Drunk';
+    font-size: 20px;
+    width:70%;
+    
+    vertical-align:top;
+    margin-top: 50px;
+    margin-left: 30px;
+    text-indent:40px;
+    padding-top: 20px;
+}
+.img2 {
+    vertical-align:top;
+    margin-top:20px;
+    margin-left: 20px;
+    max-width: 24%;
+    
+}
+/* start section3 style */
+.section3 {
+    background-color: gray;
+}
+
+.left-wraper {
+    float: left;
+    width: 400px;
+}
+.div-h2 {
+    font-size: 40px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+.img3 {
+    max-width: 90%;
+    margin-left: 20px;
+}
+.div-h3 {
+    font-size: 20px;
+    font-weight: 900;
+    font-style:italic;
+    letter-spacing :5px;
+    text-transform: capitalize;
+    margin-left: 20px;
+}
+.text3 {
+    width: 90%;
+    margin-left:20px;
+    font-weight: 500;
+    font-size:20px;
+    font-family: 'Roboto', sans-serif;
+}
+.right-wraper {
+    float:right;
+    width: 950px;
+}
+.div2-h2 {
+    text-transform: capitalize;
+    font-size:40px;
+    font-weight:900;
+}
+.img4 {
+    max-width: 30%;
+    float:left;
+    margin-right: 20px;
+}
+.text4 {
+    font-size: 20px;
+    text-indent: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+.section3::after {
+    content:'';
+    clear: both;
+    display:block;
+}
+/* End Index Styles */
+
+/* Start Contact Styles */
+.contact-h2 {
+    font-size:25px ;
+    font-weight: 900;
+    padding:10px;
+    border:1px grey solid;
+    margin:0 60px 0 20px;
+}
+.address {
+    border:1px grey solid;
+    float:left;
+    height:550px;
+    width:511px;
+    margin-left:20px;
+    
+}
+.map {
+    float: right;
+    margin-right:60px;
+    width:890px;
+    height:550px;
+}
+.ul-li1 {
+    font-size: 20px;
+    margin:10px 0 20px 10px;
+    font-weight: 600;
+    
+}
+.img5 {
+    max-width: 10%;
+    padding-top: 330px;
+    padding-left:10px
+}
